@@ -18,7 +18,7 @@ function WhySquadhelpNaming () {
         Recognized as one of the <Link to='#'>Most Innovative Companies</Link>{' '}
         by Inc Magazine
       </p>
-      <Link to='#'>See How It Works</Link>
+      <a href='#'>See How It Works</a>
       <span>Over 25,000+ Customers</span>
     </>
   );
