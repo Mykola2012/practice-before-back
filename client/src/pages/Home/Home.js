@@ -10,6 +10,7 @@ import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
 import ReadyToGetStarted from './ReadyToGetStarted';
 import AgencyLevel from './AgencyLevel/AgencyLevel';
+import WhySquadhelpNaming from './WhySquadhelpNaming/WhySquadhelpNaming';
 
 const Home = props => {
   const [index, setIndex] = useState(0);
@@ -251,6 +252,9 @@ const Home = props => {
               <Link className={styles.button__link} to='/dashboard'>
                 DASHBOARD
               </Link>
+            </div>
+            <div className={styles.whySquadhelpContainer}>
+              <WhySquadhelpNaming />
             </div>
             <div className={styles.agencyContainer}>
               <div className={styles.agencyArticlesContainer}>
