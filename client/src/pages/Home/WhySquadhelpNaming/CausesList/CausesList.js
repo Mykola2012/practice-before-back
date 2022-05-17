@@ -4,25 +4,36 @@ import articles from './articles.json';
 import styles from './CausesList.module.sass';
 
 function CausesList () {
-  const mapBodyPart2 = a => <p className={styles.textBody}>{a.bodyPart2}</p>;
-
   const mapArticles = (a, i) => {
-    const { title, bodyPart1, linkText, iconClass, color, colorBg } = a;
+    const {
+      title,
+      bodyPart1,
+      bodyPart2,
+      linkText,
+      iconClass,
+      color,
+      colorBg,
+    } = a;
 
     const stylesIcon = {
       color: color,
+    };
+
+    const bgIcon = {
       backgroundColor: colorBg,
     };
 
     return (
       <li key={i} className={styles.listItemContainer}>
-        <h3 className={styles.subTitle}>{title}</h3>
-        <i className={iconClass} style={stylesIcon}></i>
-        <div className={styles.bodyWrapper}>
-          <p className={styles.textBody}>{bodyPart1}</p>
-          <Link to='#'>{linkText}</Link>
-          {articles.map(mapBodyPart2)}
+        <div style={bgIcon} className={styles.iconContainter}>
+          <i className={iconClass} style={stylesIcon}></i>
         </div>
+        <h3 className={styles.subTitle}>{title}</h3>
+        <p className={styles.paragraphBody}>
+          <span className={styles.textBody}>{bodyPart1}</span>
+          <Link to='#'>{linkText}</Link>
+          <span className={styles.textBody}>{bodyPart2}</span>
+        </p>
       </li>
     );
   };
