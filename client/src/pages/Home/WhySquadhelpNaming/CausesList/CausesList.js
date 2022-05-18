@@ -9,7 +9,8 @@ function CausesList () {
       title,
       bodyPart1,
       bodyPart2,
-      linkText,
+      linkFirstItem,
+      linkSecondItem,
       iconClass,
       color,
       colorBg,
@@ -31,7 +32,8 @@ function CausesList () {
         <h3 className={styles.subTitle}>{title}</h3>
         <p className={styles.paragraphBody}>
           <span className={styles.textBody}>{bodyPart1}</span>
-          <Link to='#'>{linkText}</Link>
+          <Link to='#'>{linkFirstItem}</Link>
+          <Link to='#'>{linkSecondItem}</Link>
           <span className={styles.textBody}>{bodyPart2}</span>
         </p>
       </li>

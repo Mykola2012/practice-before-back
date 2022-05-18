@@ -6,7 +6,7 @@
     "iconClass": "fas fa-users fa-2x",
     "bodyPart1": "Our unique approach to company naming services allows you to receive an unmatched breadth of ",
     "bodyPart2": " from the world's largest community of naming experts. With 250,000+ creatives and 30,000+ successful naming projects, Squadhelp is by far the largest business naming website across the globe.",
-    "linkText": "business name ideas"
+    "linkFirstItem": "business name ideas"
   },
   {
     "color": "#00c9a7",
@@ -14,7 +14,7 @@
     "title": "High Quality & Collaboration",
     "iconClass": "fas fa-brain fa-2x",
     "bodyPart1": "Using an advanced Quality Scoring Algorithm and Machine Learning, we ensure that you receive more naming agency quality ideas from our top-quality creatives, and Gamification best practices ensure two-way communication throughout your ",
-    "linkText": "contest."
+    "linkSecondItem": "contest."
   },
   {
     "color": "#377dff",

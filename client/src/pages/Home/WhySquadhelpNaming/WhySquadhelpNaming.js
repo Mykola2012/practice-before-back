@@ -15,12 +15,16 @@ function WhySquadhelpNaming () {
 
       <h3 className={styles.subTitle}>World's #1 Naming Website</h3>
       <p className={styles.textBody}>
-        Recognized as one of the <Link to='#'>Most Innovative Companies</Link>{' '}
+        Recognized as one of the
+        <a href='#' target='_blanc'>
+          Most Innovative Companies
+        </a>
         by Inc Magazine
       </p>
-      <a className={styles.linkBtn} href='#'>
+      <Link to='#' className={styles.linkBtn} href='#'>
         See How It Works
-      </a>
+      </Link>
+
       <span className={styles.textSpan}>Over 25,000+ Customers</span>
     </section>
   );

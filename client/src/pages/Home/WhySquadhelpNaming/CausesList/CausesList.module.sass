@@ -3,6 +3,8 @@
   justify-content: space-between
   align-items: start
   padding: 30px 10px
+  @media screen and (max-width:768px)
+    flex-direction: column
   
 
 .listItemContainer
@@ -12,6 +14,9 @@
   align-items: center
   text-align: center
   padding: 10px 30px
+  @media screen and (max-width:768px)
+  max-width: 100%
+  
   
   
 
@@ -38,10 +43,14 @@
   line-height: 1.2
 
 .paragraphBody
+  max-width: 315px
   font-size: 14px
   font-weight: 400
   line-height: 1.7
   color: #77838f
   a
     color: #007bff
+  @media screen and (max-width:768px)
+    max-width: 450px
+    min-width: 250px
 
