@@ -21,7 +21,7 @@ function WhySquadhelpNaming () {
         </a>
         by Inc Magazine
       </p>
-      <Link to='#' className={styles.linkBtn} href='#'>
+      <Link to='#' className={styles.linkBtn}>
         See How It Works
       </Link>
 
